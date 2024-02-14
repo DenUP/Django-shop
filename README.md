@@ -39,7 +39,7 @@ Django Store - это онлайн магазин для покупок не т�
 
 #### Полезные команды для разработки:
 1. Сохранение базы данных (категории):<br />
-    Linux:  <br />`./manage.py dumpdata products.ProductCategory > categories.json`
+    Linux:  <br />`./manage.py dumpdata products.ProductCategory > categories.json`<br />
     Windows: <br />`python  -Xutf8 manage.py dumpdata products.ProductCategory -o categories.json`<br />
 2. Сохранение базы данных (продукты):<br />
     Linux: <br /> `./manage.py dumpdata products.Product > goods.json`<br />
